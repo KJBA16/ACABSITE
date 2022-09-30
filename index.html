@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css.css">
+        <title>ACAB SITE</title>
+        </head>
+        <body>
+
+            <nav class="navbar">
+                <img src="logo1.png" class="logo">
+                <ul class="links">
+                    <li class="active"><a href="#"></a>Home</li>
+                    <li><a href="#"></a>Background</li>
+                    <li><a href="#"></a>Members</li>
+                    <li><a href="#"></a>Login</li>
+                    <li class="ctn"><a href="#"></a>Join Us</li>
+
+                    </li>
+                </ul>
+                <img src="home.png" alt="" class="btn">
+            </nav>
+            <header>
+                <div class="header-content">
+                <h2>The Life of a Servant</h2>
+                <div class="line"></div>
+                <h1>APOSTLE'S CHOIR AND BAND</h1>
+                
+
+                <a href="#" class="ctn">Learn more about us</a>
+            </div>
+            </header>
+         <script>
+            const menuBtn = document.querySelector('.btn')
+            const navlinks = document.querySelector('.links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-m')
+            })
+         </script>
+        
+        </body>
+
+</html>
